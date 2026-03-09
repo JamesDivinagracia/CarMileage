@@ -1,4 +1,3 @@
-
 public class Mileage {
 	
 	public static float calculateEfficiency(float litres, int prevkm, int currentkm) {
@@ -12,7 +11,7 @@ public class Mileage {
 		int[] km = {24886, 25319, 25740, 26141};
 		
 		//litres at each fill 
-		float[] litres = {27.59, 29.55 , 28.98 , 27.13};
+		float[] litres = {27.59f, 29.55f , 28.98f , 27.13f};
 		
 		
 	// start at 1 becasue each calculation of efficiency needs previous reading 
@@ -20,4 +19,9 @@ public class Mileage {
 		
 		float efficiency = calculateEfficiency(litres[i], km [i-1], km[i]);
 		
-		system.out.printf("%.2f L/100km%n" , efficiency);
+		System.out.printf("%.2f L/100km%n" , efficiency);
+
+
+		}
+	}
+}
