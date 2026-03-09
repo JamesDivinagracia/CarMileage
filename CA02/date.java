@@ -1,3 +1,8 @@
+
+//https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
+
+
+
 //import java.time.LocalDate;
 //import java.time.format.DateTimeFormatter;
 //import java.util.Locale;
@@ -14,3 +19,4 @@ public class  ReadDate {
 					System.out.println(date);// outputs 
 	}
 }
+
