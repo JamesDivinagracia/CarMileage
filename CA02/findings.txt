@@ -1,1 +1,27 @@
+2.
+
+inputs : date , mileage , litres 
+1st output will be Litres per 100km where ( mileage  1st reading - mileage  2nd reading ) = distance.
+
+litres / distance = l/km 
+
+100xL/km = efficiency 
+
+outputs of 100xl/km is efficiency 
+
+we can also output the date or mileage beside the efficiency reading to note the date for step 3 
+(display output:1) 
+
+
+3. 
+(ideas) 
+using a binary search to get min , max , avg. 
+
+
+
+class  called readings + reading.date or reading.mileage , reading.litres 
+
+CMcalc.max
+CMcalc.avg
+
 
