@@ -5,7 +5,7 @@ cn=
 all: 1
 
 1:
-	javac -d ca2/ Exer5.java 	
+	javac -d ca2/ CA02.java 	
 
 run:
 	java -cp ca2 ${cn}	
