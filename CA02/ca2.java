@@ -1,9 +1,16 @@
-//import java.time. LocalDate;
-//import java.time.format.Datetimeformatter;
+//import java.time.LocalDate;
+//import java.time.format.DateTimeFormatter;
 //import java.util.Locale;
 
-public class ( ReadDate
+public class  ReadDate {
 
 	public static void main (String[] args) {
-		DateTimeFormatter = DateTimeFormatter.ofPattern(
-					"dd/MM/
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(
+		"dd/MM/yyyy", locale.ENGLISH);
+					
+					String dateStr = "27/02/2026";
+					
+					LocalDate date = LocalDate.parse(dateStr, formatter);
+					System.out.println(date);// outputs 
+	}
+}
