@@ -1,0 +1,5 @@
+step 1 = litres/ distance = L/km 
+
+  100x L / km = L per 100 km 
+
+// calculation of L per 100 km 
