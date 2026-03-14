@@ -25,3 +25,7 @@ CMcalc.max
 CMcalc.avg
 
 
+4. Sorting the date with efficiency at a Descending order to collect max efficiency with the very first row and the min efficiency with the last row
+
+avg could be taking the median of the values, or for a more accurate result, do an average calculation (math library?)
+
