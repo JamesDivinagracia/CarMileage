@@ -21,6 +21,8 @@
  *
  * James: Any sorting algorithm works, we will just explain the time complexity and 
  *        reason as to why this sorting algorithm will suffice.
+ *
+ * Source: https://algs4.cs.princeton.edu/21elementary/Insertion.java.html 
  ******************************************************************************/
 
 import java.util.Comparator;
