@@ -5,10 +5,12 @@ cn=
 all: 1
 
 1:
-	javac -d ca2/ CA02.java < ${cn}	
+	javac -cp ca2/ CA02.java	
+	java CA02 < ${cn}	> out.txt
 
-run:
-	java -cp ca2 ${cn}	
+2:
+	javac -cp ca2/ Insertion.java	
+	java Insertion < ${cn} > out.txt
 
 clean:
-	rm ca2/*
+	sudo rm ca2/*
