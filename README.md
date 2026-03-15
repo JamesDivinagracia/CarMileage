@@ -4,7 +4,7 @@ for CA2 of Java and Algorithms
  ## Imported libraries:
  import java.time.LocalDate
  import java.time.format.DateTimeFormatter
- import java.util.Arrays
+ import java.util.ArrayList
  import
   
   ## functinal requirements:
