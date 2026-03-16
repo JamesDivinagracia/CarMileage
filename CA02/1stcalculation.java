@@ -7,10 +7,10 @@ public class Mileage {
 	
 	public static void main(String[] args) {
 		
-		//mileage 
+		//mileage  (placeholder for test)
 		int[] km = {24886, 25319, 25740, 26141};
 		
-		//litres at each fill 
+		//litres at each fill (placeholder for test)
 		float[] litres = {27.59f, 29.55f , 28.98f , 27.13f};
 		
 		
